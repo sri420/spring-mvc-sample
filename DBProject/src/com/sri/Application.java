@@ -26,15 +26,15 @@ public class Application {
 	public static void main(String[] args) throws Exception {
 		System.out.println("***********Application STARTED*****");
 		DAO dao=new DAO();
-		/*System.out.println("***********AllRecords");
+		System.out.println("***********AllRecords");
 		dao.getAllRecords();
 		System.out.println("***********ByName");
 		dao.getRecordsByName("Ram");
 		System.out.println("***********ByNameUsingPreparedStatement");
 		dao.getRecordsByNameUsingPreparedStatement("Mary");
 		System.out.println("***********ByNameAndIDUsingPreparedStatement");
-		dao.getRecordsByNameAndIDUsingPreparedStatement("Mary",new Integer(4));*/
-		/*System.out.println("*************START: ByDynamicCriteria***********");
+		dao.getRecordsByNameAndIDUsingPreparedStatement("Mary",new Integer(4));
+		System.out.println("*************START: ByDynamicCriteria***********");
 		dao.getRecordsByCriteria("Mary",null);
 		System.out.println("*************END:   ByDynamicCriteria***********");
 		System.out.println("*************START: ByDynamicCriteria***********");
@@ -45,9 +45,9 @@ public class Application {
 		System.out.println("*************END: ByDynamicCriteria***********");
 		System.out.println("*************START: ByDynamicCriteria***********");
 		dao.getRecordsByCriteria("Ram",new Integer(2));
-		System.out.println("*************END: ByDynamicCriteria***********");*/
+		System.out.println("*************END: ByDynamicCriteria***********");
 		
-	/*	System.out.println("*************START: getRecordsByCriteriaUsingPS***********");
+		System.out.println("*************START: getRecordsByCriteriaUsingPS***********");
 		dao.getRecordsByCriteriaUsingPS("Mary",null);
 		System.out.println("*************END:   getRecordsByCriteriaUsingPS***********");
 		System.out.println("*************START: getRecordsByCriteriaUsingPS***********");
@@ -58,7 +58,7 @@ public class Application {
 		System.out.println("*************END: getRecordsByCriteriaUsingPS***********");
 		System.out.println("*************START: getRecordsByCriteriaUsingPS***********");
 		dao.getRecordsByCriteriaUsingPS("Ram",new Integer(4));
-		System.out.println("*************END: getRecordsByCriteriaUsingPS***********");*/
+		System.out.println("*************END: getRecordsByCriteriaUsingPS***********");
 		
 		//DBUtil.MyBatisSessionFactory();
 		
